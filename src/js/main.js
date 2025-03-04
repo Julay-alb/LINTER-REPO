@@ -1,4 +1,4 @@
-import { setupFormHandler } from './modules/formhandler.js';
+import { setupFormHandler } from './src/js/modules/formhandler.js';
 document.addEventListener("DOMContentLoaded", function () {
     const contactForm = document.getElementById("contactForm");
     const confirmationMessage = document.getElementById("confirmationMessage");
